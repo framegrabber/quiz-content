@@ -1,0 +1,382 @@
+{
+  "$schema": "https://framegrabber.github.io/quiz/schema/quiz.v1.json",
+  "schema": 1,
+  "title": "Possessive determiners",
+  "description": "my, your, his, her, its, our, their – wem gehört was?",
+  "subject": "Englisch",
+  "grade": 5,
+  "source": "Green Line 1 Bayern",
+  "language": "en",
+  "roundSize": 10,
+  "categories": [
+    { "id": "forms", "name": "Pronomen → Begleiter", "description": "I → my, you → your, he → his …" },
+    { "id": "his-her", "name": "his oder her" },
+    { "id": "its", "name": "its oder it's" },
+    { "id": "plural", "name": "our, your, their" },
+    { "id": "sentences", "name": "Im Satz" }
+  ],
+  "questions": [
+    {
+      "id": "pd-001",
+      "type": "input",
+      "category": "forms",
+      "prompt": "I have a dog. It's ___ dog.",
+      "answer": "my"
+    },
+    {
+      "id": "pd-002",
+      "type": "input",
+      "category": "forms",
+      "prompt": "You have a cat. It's ___ cat.",
+      "answer": "your"
+    },
+    {
+      "id": "pd-003",
+      "type": "input",
+      "category": "forms",
+      "prompt": "Ben has a bike. It's ___ bike.",
+      "answer": "his",
+      "explanation": "Ben ist ein Junge → his (sein)."
+    },
+    {
+      "id": "pd-004",
+      "type": "input",
+      "category": "forms",
+      "prompt": "Emma has a guitar. It's ___ guitar.",
+      "answer": "her",
+      "explanation": "Emma ist ein Mädchen → her (ihr)."
+    },
+    {
+      "id": "pd-005",
+      "type": "input",
+      "category": "forms",
+      "prompt": "The bird has a nest. It's ___ nest.",
+      "answer": "its",
+      "explanation": "Für Tiere und Dinge (it) heißt der Begleiter its – ohne Apostroph."
+    },
+    {
+      "id": "pd-006",
+      "type": "input",
+      "category": "forms",
+      "prompt": "We have a garden. It's ___ garden.",
+      "answer": "our"
+    },
+    {
+      "id": "pd-007",
+      "type": "input",
+      "category": "forms",
+      "prompt": "Tom and Lisa have a rabbit. It's ___ rabbit.",
+      "answer": "their",
+      "explanation": "Mehrere Besitzer (they) → their (ihr)."
+    },
+    {
+      "id": "pd-008",
+      "type": "input",
+      "category": "forms",
+      "prompt": "You and Max have a new teacher. She's ___ teacher.",
+      "answer": "your",
+      "explanation": "your heißt dein, euer und Ihr – im Englischen immer dasselbe Wort."
+    },
+    {
+      "id": "pd-009",
+      "type": "choice",
+      "category": "forms",
+      "prompt": "Which possessive determiner belongs to \"they\"?",
+      "options": ["their", "them", "they", "our"],
+      "answer": "their"
+    },
+    {
+      "id": "pd-010",
+      "type": "choice",
+      "category": "forms",
+      "prompt": "Which possessive determiner belongs to \"he\"?",
+      "options": ["his", "her", "him", "its"],
+      "answer": "his"
+    },
+    {
+      "id": "pd-011",
+      "type": "choice",
+      "category": "his-her",
+      "prompt": "Sarah loves ___ new bike.",
+      "options": ["her", "his", "its", "their"],
+      "answer": "her",
+      "explanation": "his/her richtet sich nach der Person, der etwas gehört: Sarah → her."
+    },
+    {
+      "id": "pd-012",
+      "type": "choice",
+      "category": "his-her",
+      "prompt": "Jack can't find ___ PE bag.",
+      "options": ["his", "her", "its", "your"],
+      "answer": "his",
+      "explanation": "Jack ist ein Junge → his."
+    },
+    {
+      "id": "pd-013",
+      "type": "choice",
+      "category": "his-her",
+      "prompt": "Mr Green is our teacher. ___ car is red.",
+      "options": ["His", "Her", "Its", "Our"],
+      "answer": "His",
+      "explanation": "Das Auto gehört Mr Green (Mann) → His."
+    },
+    {
+      "id": "pd-014",
+      "type": "choice",
+      "category": "his-her",
+      "prompt": "My grandma lives in York. ___ house is old.",
+      "options": ["Her", "His", "Its", "Their"],
+      "answer": "Her",
+      "explanation": "Das Haus gehört der Oma (Frau) → Her."
+    },
+    {
+      "id": "pd-015",
+      "type": "input",
+      "category": "his-her",
+      "prompt": "Lucy is in Year 5. ___ favourite subject is Art.",
+      "answer": "Her"
+    },
+    {
+      "id": "pd-016",
+      "type": "input",
+      "category": "his-her",
+      "prompt": "Leon plays football. ___ team is very good.",
+      "answer": "His"
+    },
+    {
+      "id": "pd-017",
+      "type": "cloze",
+      "category": "his-her",
+      "prompt": "Ergänze his oder her.",
+      "text": "Anna and {her} brother Max are at home. Max is playing with {his} computer.",
+      "distractors": ["his", "her"]
+    },
+    {
+      "id": "pd-018",
+      "type": "cloze",
+      "category": "his-her",
+      "prompt": "Ergänze his oder her.",
+      "text": "Dad is in the kitchen. {His} phone is on the table. Mum is looking for {her} keys.",
+      "distractors": ["Her", "his"],
+      "explanation": "Dad → His, Mum → her. Entscheidend ist, wem etwas gehört."
+    },
+    {
+      "id": "pd-019",
+      "type": "choice",
+      "category": "its",
+      "prompt": "The dog is hungry. Give it ___ food, please.",
+      "options": ["its", "it's", "his", "her"],
+      "answer": "its",
+      "explanation": "its = sein/ihr bei Tieren und Dingen. it's = it is."
+    },
+    {
+      "id": "pd-020",
+      "type": "choice",
+      "category": "its",
+      "prompt": "___ a nice day today!",
+      "options": ["It's", "Its", "His", "Is"],
+      "answer": "It's",
+      "explanation": "It's = It is (Es ist). Der Apostroph steht für das fehlende i."
+    },
+    {
+      "id": "pd-021",
+      "type": "choice",
+      "category": "its",
+      "prompt": "Our school is big. ___ library has lots of books.",
+      "options": ["Its", "It's", "His", "Their"],
+      "answer": "Its",
+      "explanation": "Die Bücherei gehört der Schule (it) → Its. It's library = It is library ergibt keinen Sinn."
+    },
+    {
+      "id": "pd-022",
+      "type": "choice",
+      "category": "its",
+      "prompt": "Look at the cat! ___ playing with a ball.",
+      "options": ["It's", "Its", "Her", "His"],
+      "answer": "It's",
+      "explanation": "It's playing = It is playing."
+    },
+    {
+      "id": "pd-023",
+      "type": "input",
+      "category": "its",
+      "prompt": "The bird is in ___ cage. (it)",
+      "answer": "its",
+      "explanation": "Der Käfig gehört dem Vogel (it) → its, ohne Apostroph."
+    },
+    {
+      "id": "pd-024",
+      "type": "input",
+      "category": "its",
+      "prompt": "This is my rabbit. ___ name is Snowy. (it)",
+      "answer": "Its"
+    },
+    {
+      "id": "pd-025",
+      "type": "cloze",
+      "category": "its",
+      "prompt": "Schreibe its oder it's in die Lücken.",
+      "text": "{It's|It is} cold today, so the cat is in {its} basket.",
+      "mode": "type",
+      "explanation": "It's = It is. its = Besitz (der Korb der Katze)."
+    },
+    {
+      "id": "pd-026",
+      "type": "choice",
+      "category": "its",
+      "prompt": "The tree in our garden is old. ___ leaves are yellow.",
+      "options": ["Its", "It's", "His", "Their"],
+      "answer": "Its"
+    },
+    {
+      "id": "pd-027",
+      "type": "choice",
+      "category": "plural",
+      "prompt": "We love ___ new classroom.",
+      "options": ["our", "us", "we", "their"],
+      "answer": "our"
+    },
+    {
+      "id": "pd-028",
+      "type": "choice",
+      "category": "plural",
+      "prompt": "The twins are at ___ grandparents' house.",
+      "options": ["their", "there", "they", "our"],
+      "answer": "their",
+      "explanation": "their = ihr (mehrere Besitzer). there = dort."
+    },
+    {
+      "id": "pd-029",
+      "type": "choice",
+      "category": "plural",
+      "prompt": "Kids, put ___ books on the desk, please!",
+      "options": ["your", "you", "our", "their"],
+      "answer": "your",
+      "explanation": "Die Lehrerin spricht mehrere Kinder an: euer → your."
+    },
+    {
+      "id": "pd-030",
+      "type": "choice",
+      "category": "plural",
+      "prompt": "Hi Emma! Is this ___ pencil case?",
+      "options": ["your", "you", "my", "her"],
+      "answer": "your"
+    },
+    {
+      "id": "pd-031",
+      "type": "input",
+      "category": "plural",
+      "prompt": "My friends and I have a club. ___ club meets on Fridays. (we)",
+      "answer": "Our"
+    },
+    {
+      "id": "pd-032",
+      "type": "input",
+      "category": "plural",
+      "prompt": "Mr and Mrs Patel have two children. ___ children go to my school. (they)",
+      "answer": "Their",
+      "explanation": "Mehrere Besitzer (Mr und Mrs Patel) → Their."
+    },
+    {
+      "id": "pd-033",
+      "type": "input",
+      "category": "plural",
+      "prompt": "Hello, Mr Brown! Is this ___ umbrella? (you)",
+      "answer": "your",
+      "explanation": "Auch die höfliche Form Ihr heißt im Englischen your."
+    },
+    {
+      "id": "pd-034",
+      "type": "cloze",
+      "category": "plural",
+      "prompt": "Ergänze die Begleiter.",
+      "text": "We often visit {our} aunt in London. The Smiths visit {their} cousins in York.",
+      "distractors": ["your", "there"]
+    },
+    {
+      "id": "pd-035",
+      "type": "choice",
+      "category": "plural",
+      "prompt": "Which English words can mean \"ihr\" or \"Ihr\"? Choose all.",
+      "options": ["her", "their", "your", "his"],
+      "answer": ["her", "their", "your"],
+      "explanation": "ihr Buch (von ihr) = her book, ihr Buch (von ihnen) = their book, Ihr Buch (höflich) = your book."
+    },
+    {
+      "id": "pd-036",
+      "type": "cloze",
+      "category": "sentences",
+      "text": "This is {my} sister Mia. {Her} hobby is dancing.",
+      "distractors": ["his", "your"]
+    },
+    {
+      "id": "pd-037",
+      "type": "cloze",
+      "category": "sentences",
+      "text": "Ben and I are friends. {Our} favourite game is chess. Ben's dog loves {its} ball.",
+      "distractors": ["Their", "it's"]
+    },
+    {
+      "id": "pd-038",
+      "type": "cloze",
+      "category": "sentences",
+      "prompt": "Schreibe die Begleiter in die Lücken.",
+      "text": "Can you help me? I can't find {my} pencil. Is it in {your} bag?",
+      "mode": "type"
+    },
+    {
+      "id": "pd-039",
+      "type": "cloze",
+      "category": "sentences",
+      "text": "The children are in the park with {their} dog. {Its} name is Rocky.",
+      "distractors": ["there", "It's"]
+    },
+    {
+      "id": "pd-040",
+      "type": "cloze",
+      "category": "sentences",
+      "prompt": "Schreibe die Begleiter in die Lücken.",
+      "text": "Is that Tom's jacket? – Yes, it's {his} jacket. Is that Lisa's bag? – Yes, it's {her} bag.",
+      "mode": "type"
+    },
+    {
+      "id": "pd-041",
+      "type": "input",
+      "category": "sentences",
+      "prompt": "Ich mag meinen Hund. → I like ___ dog.",
+      "answer": "my"
+    },
+    {
+      "id": "pd-042",
+      "type": "input",
+      "category": "sentences",
+      "prompt": "Wo ist euer Klassenzimmer? → Where is ___ classroom?",
+      "answer": "your",
+      "explanation": "euer = your."
+    },
+    {
+      "id": "pd-043",
+      "type": "input",
+      "category": "sentences",
+      "prompt": "Das ist ihr Haus. (Es gehört Paul und Lena.) → That's ___ house.",
+      "answer": "their",
+      "explanation": "Mehrere Besitzer → their."
+    },
+    {
+      "id": "pd-044",
+      "type": "input",
+      "category": "sentences",
+      "prompt": "Das Pferd frisst sein Futter. → The horse eats ___ food.",
+      "answer": "its",
+      "explanation": "Bei Tieren und Dingen: its – auch wenn es im Deutschen „sein“ heißt."
+    },
+    {
+      "id": "pd-045",
+      "type": "choice",
+      "category": "sentences",
+      "prompt": "My brother and I have a cat. ___ cat is black.",
+      "options": ["Our", "Their", "My", "Your"],
+      "answer": "Our"
+    }
+  ]
+}
