@@ -1,0 +1,368 @@
+{
+  "$schema": "https://framegrabber.github.io/quiz/schema/quiz.v1.json",
+  "schema": 1,
+  "title": "Yes/No questions and short answers with be",
+  "description": "Are you …? – Yes, I am. / No, I'm not. – Fragen mit be und Kurzantworten",
+  "subject": "Englisch",
+  "grade": 5,
+  "source": "Green Line 1 Bayern",
+  "language": "en",
+  "roundSize": 10,
+  "categories": [
+    {
+      "id": "questions",
+      "name": "Frage bilden",
+      "description": "Am I …? Is she …? Are they …? – Verb vor das Subjekt"
+    },
+    {
+      "id": "yes",
+      "name": "Kurzantwort mit yes",
+      "description": "Yes, I am. / Yes, she is. – immer Langform"
+    },
+    {
+      "id": "no",
+      "name": "Kurzantwort mit no",
+      "description": "No, I'm not. / No, he isn't. / No, they aren't."
+    },
+    {
+      "id": "pronoun",
+      "name": "Richtiges Pronomen",
+      "description": "Is your mum …? → she · Are you …? → I / we"
+    }
+  ],
+  "questions": [
+    {
+      "id": "bq-001",
+      "type": "choice",
+      "category": "questions",
+      "prompt": "___ Lena in your class?",
+      "options": ["Is", "Are", "Am", "Be"],
+      "answer": "Is",
+      "explanation": "Lena = she → is. In der Frage steht is vor dem Subjekt."
+    },
+    {
+      "id": "bq-002",
+      "type": "choice",
+      "category": "questions",
+      "prompt": "___ your parents at home today?",
+      "options": ["Are", "Is", "Am", "Do"],
+      "answer": "Are",
+      "explanation": "your parents = they → are."
+    },
+    {
+      "id": "bq-003",
+      "type": "choice",
+      "category": "questions",
+      "prompt": "Which question is correct?",
+      "options": [
+        "Is Noah twelve?",
+        "Noah is twelve?",
+        "Is twelve Noah?",
+        "Are Noah twelve?"
+      ],
+      "answer": "Is Noah twelve?",
+      "explanation": "Ja/Nein-Frage mit be: Verb zuerst, dann Subjekt – Is Noah …?"
+    },
+    {
+      "id": "bq-004",
+      "type": "choice",
+      "category": "questions",
+      "prompt": "___ I late for the bus?",
+      "options": ["Am", "Is", "Are", "Be"],
+      "answer": "Am",
+      "explanation": "Zu I gehört immer am: Am I …?"
+    },
+    {
+      "id": "bq-005",
+      "type": "input",
+      "category": "questions",
+      "prompt": "___ you and Ben in the football team?",
+      "answer": "Are",
+      "explanation": "you and Ben = ihr → are."
+    },
+    {
+      "id": "bq-006",
+      "type": "input",
+      "category": "questions",
+      "prompt": "___ the dog hungry?",
+      "answer": "Is",
+      "explanation": "the dog = it → is."
+    },
+    {
+      "id": "bq-007",
+      "type": "input",
+      "category": "questions",
+      "prompt": "Make a question: Ms Carter is our new teacher. → ___ our new teacher?",
+      "answer": "Is Ms Carter",
+      "explanation": "Verb vor das Subjekt: Is Ms Carter …?"
+    },
+    {
+      "id": "bq-008",
+      "type": "input",
+      "category": "questions",
+      "prompt": "Make a question: They are from Munich. → ___ from Munich?",
+      "answer": "Are they",
+      "explanation": "Aus They are wird in der Frage Are they …?"
+    },
+    {
+      "id": "bq-009",
+      "type": "cloze",
+      "category": "questions",
+      "prompt": "Ergänze am, is oder are.",
+      "text": "{Is} your bike new? {Are} the twins at school? {Am} I in your group? {Is} it cold outside?",
+      "distractors": ["Be", "Do"]
+    },
+    {
+      "id": "bq-010",
+      "type": "cloze",
+      "category": "questions",
+      "mode": "type",
+      "prompt": "Ergänze am, is oder are.",
+      "text": "{Are} you ten? {Is} Mia your sister? {Are} we in Room 5? {Am} I right?"
+    },
+    {
+      "id": "bq-011",
+      "type": "choice",
+      "category": "yes",
+      "prompt": "Are you hungry? – Yes, ___.",
+      "options": ["I am", "I'm", "I are", "I'm am"],
+      "answer": "I am",
+      "explanation": "Positive Kurzantwort immer mit Langform: Yes, I am. Nie: Yes, I'm."
+    },
+    {
+      "id": "bq-012",
+      "type": "choice",
+      "category": "yes",
+      "prompt": "Is Mia from Bavaria? – Yes, ___.",
+      "options": ["she is", "she's", "she are", "it is"],
+      "answer": "she is",
+      "explanation": "Yes-Kurzantwort: keine Kurzform am Ende – Yes, she is."
+    },
+    {
+      "id": "bq-013",
+      "type": "choice",
+      "category": "yes",
+      "prompt": "Which short answer is correct?",
+      "options": [
+        "Yes, they are.",
+        "Yes, they're.",
+        "Yes, they is.",
+        "Yes, are they."
+      ],
+      "answer": "Yes, they are.",
+      "explanation": "Yes, they're ist falsch – bei yes immer die Langform."
+    },
+    {
+      "id": "bq-014",
+      "type": "input",
+      "category": "yes",
+      "prompt": "Is Ben your brother? – Yes, ___.",
+      "answer": "he is",
+      "explanation": "Ben = he; positive Kurzantwort mit Langform: he is."
+    },
+    {
+      "id": "bq-015",
+      "type": "input",
+      "category": "yes",
+      "prompt": "Is the film good? – Yes, ___.",
+      "answer": "it is",
+      "explanation": "the film = it → Yes, it is. (nicht: it's)"
+    },
+    {
+      "id": "bq-016",
+      "type": "input",
+      "category": "yes",
+      "prompt": "Are Lena and Tom friends? – Yes, ___.",
+      "answer": "they are",
+      "explanation": "Lena and Tom = they → Yes, they are."
+    },
+    {
+      "id": "bq-017",
+      "type": "input",
+      "category": "yes",
+      "prompt": "Am I in your team? – Yes, ___.",
+      "answer": "you are",
+      "explanation": "Fragt jemand Am I …?, antwortest du mit you: Yes, you are."
+    },
+    {
+      "id": "bq-018",
+      "type": "cloze",
+      "category": "yes",
+      "prompt": "Ergänze die positiven Kurzantworten.",
+      "text": "Is your cat black? – Yes, it {is}. Are you twelve? – Yes, I {am}. Are we late? – Yes, we {are}.",
+      "distractors": ["'s", "'m", "'re"]
+    },
+    {
+      "id": "bq-019",
+      "type": "cloze",
+      "category": "yes",
+      "mode": "type",
+      "prompt": "Ergänze die positiven Kurzantworten (zwei Wörter).",
+      "text": "Is Ms Carter nice? – Yes, {she is}. Is the pizza hot? – Yes, {it is}."
+    },
+    {
+      "id": "bq-020",
+      "type": "choice",
+      "category": "no",
+      "prompt": "Are you tired? – No, ___.",
+      "options": ["I'm not", "I amn't", "I not", "I isn't"],
+      "answer": "I'm not",
+      "explanation": "Es gibt kein amn't. Richtig: No, I'm not."
+    },
+    {
+      "id": "bq-021",
+      "type": "choice",
+      "category": "no",
+      "prompt": "Are the boys in the park? – No, ___.",
+      "options": ["they aren't", "they isn't", "they not", "they don't"],
+      "answer": "they aren't",
+      "explanation": "they → aren't (are not)."
+    },
+    {
+      "id": "bq-022",
+      "type": "choice",
+      "category": "no",
+      "prompt": "Is Noah ill? – No, ___.",
+      "options": ["he isn't", "he aren't", "he not", "he's"],
+      "answer": "he isn't",
+      "explanation": "he → isn't (is not)."
+    },
+    {
+      "id": "bq-023",
+      "type": "input",
+      "category": "no",
+      "prompt": "Is your room big? – No, ___. (Kurzform mit n't)",
+      "answer": "it isn't",
+      "accept": ["it is not", "it's not"],
+      "explanation": "the room = it → No, it isn't."
+    },
+    {
+      "id": "bq-024",
+      "type": "input",
+      "category": "no",
+      "prompt": "Is Lena at the swimming pool? – No, ___. (Kurzform mit n't)",
+      "answer": "she isn't",
+      "accept": ["she is not", "she's not"],
+      "explanation": "Lena = she → No, she isn't."
+    },
+    {
+      "id": "bq-025",
+      "type": "input",
+      "category": "no",
+      "prompt": "Are your pens in your bag? – No, ___. (Kurzform mit n't)",
+      "answer": "they aren't",
+      "accept": ["they are not", "they're not"],
+      "explanation": "your pens = they → aren't, nicht isn't."
+    },
+    {
+      "id": "bq-026",
+      "type": "input",
+      "category": "no",
+      "prompt": "Am I late? – No, ___. (Kurzform mit n't)",
+      "answer": "you aren't",
+      "accept": ["you are not", "you're not"],
+      "explanation": "Am I …? → Antwort mit you: No, you aren't."
+    },
+    {
+      "id": "bq-027",
+      "type": "cloze",
+      "category": "no",
+      "prompt": "Ergänze die negativen Kurzantworten.",
+      "text": "Is it Monday? – No, it {isn't}. Are your friends here? – No, they {aren't}. Are you sad? – No, I'm {not}.",
+      "distractors": ["amn't", "don't", "no"]
+    },
+    {
+      "id": "bq-028",
+      "type": "cloze",
+      "category": "no",
+      "mode": "type",
+      "prompt": "Ergänze isn't, aren't oder not.",
+      "text": "Is Ben in Year 6? – No, he {isn't}. Are we in the same group? – No, we {aren't}. Are you cold? – No, I'm {not}."
+    },
+    {
+      "id": "bq-029",
+      "type": "choice",
+      "category": "pronoun",
+      "prompt": "Are you in Year 5, Mia? – Yes, ___.",
+      "options": ["I am", "you are", "we are", "she is"],
+      "answer": "I am",
+      "explanation": "Frage an eine Person mit you → Antwort mit I."
+    },
+    {
+      "id": "bq-030",
+      "type": "choice",
+      "category": "pronoun",
+      "prompt": "Are you and Noah brothers? – Yes, ___.",
+      "options": ["we are", "I am", "you are", "they are"],
+      "answer": "we are",
+      "explanation": "you = ihr (mehrere) → Antwort mit we."
+    },
+    {
+      "id": "bq-031",
+      "type": "choice",
+      "category": "pronoun",
+      "prompt": "Is your mum a doctor? – No, ___.",
+      "options": ["she isn't", "he isn't", "it isn't", "you aren't"],
+      "answer": "she isn't",
+      "explanation": "your mum = she."
+    },
+    {
+      "id": "bq-032",
+      "type": "input",
+      "category": "pronoun",
+      "prompt": "Is your grandpa from Munich? – Yes, ___.",
+      "answer": "he is",
+      "explanation": "your grandpa = he → Yes, he is."
+    },
+    {
+      "id": "bq-033",
+      "type": "input",
+      "category": "pronoun",
+      "prompt": "Are you two hungry? – Yes, ___.",
+      "answer": "we are",
+      "explanation": "you two = ihr beide → Antwort mit we."
+    },
+    {
+      "id": "bq-034",
+      "type": "input",
+      "category": "pronoun",
+      "prompt": "Is your new phone expensive? – No, ___. (Kurzform mit n't)",
+      "answer": "it isn't",
+      "accept": ["it is not", "it's not"],
+      "explanation": "Dinge = it → No, it isn't."
+    },
+    {
+      "id": "bq-035",
+      "type": "cloze",
+      "category": "pronoun",
+      "prompt": "Wähle das richtige Pronomen.",
+      "text": "Is your aunt nice? – Yes, {she} is. Are the books new? – No, {they} aren't. Is your school big? – Yes, {it} is.",
+      "distractors": ["he", "it's", "them"]
+    },
+    {
+      "id": "bq-036",
+      "type": "cloze",
+      "category": "pronoun",
+      "mode": "type",
+      "prompt": "Ergänze das Pronomen.",
+      "text": "Are you ready, Ben? – Yes, {I} am. Are you and Lena ready? – Yes, {we} are. Is Mr Weber here? – No, {he} isn't."
+    },
+    {
+      "id": "bq-037",
+      "type": "cloze",
+      "category": "yes",
+      "prompt": "Ergänze die Kurzantworten.",
+      "text": "Is your dad at work? – Yes, he {is}. Is the shop open? – No, it {isn't}.",
+      "distractors": ["'s", "aren't", "not"]
+    },
+    {
+      "id": "bq-038",
+      "type": "input",
+      "category": "no",
+      "prompt": "Are you from Berlin, Noah? – No, ___. (Kurzform)",
+      "answer": "I'm not",
+      "accept": ["i am not"],
+      "explanation": "Mit I gibt es nur I'm not – nicht I amn't."
+    }
+  ]
+}

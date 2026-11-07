@@ -1,0 +1,379 @@
+{
+  "$schema": "https://framegrabber.github.io/quiz/schema/quiz.v1.json",
+  "schema": 1,
+  "title": "There is / there are",
+  "description": "Es gibt … – Aussagen, Fragen und Kurzantworten",
+  "subject": "Englisch",
+  "grade": 5,
+  "source": "Green Line 1 Bayern",
+  "language": "en",
+  "roundSize": 10,
+  "categories": [
+    {
+      "id": "statements",
+      "name": "there is oder there are"
+    },
+    {
+      "id": "questions",
+      "name": "Is there / Are there"
+    },
+    {
+      "id": "answers",
+      "name": "Kurzantworten"
+    },
+    {
+      "id": "translate",
+      "name": "Es gibt … auf Englisch"
+    }
+  ],
+  "questions": [
+    {
+      "id": "ti-001",
+      "type": "input",
+      "category": "statements",
+      "prompt": "There ___ a cat under the table.",
+      "answer": "is",
+      "explanation": "a cat = Einzahl → there is."
+    },
+    {
+      "id": "ti-002",
+      "type": "cloze",
+      "category": "statements",
+      "prompt": "Tippe is oder are ein.",
+      "mode": "type",
+      "text": "There {are} three pencils in my pencil case, and there {is} a ruler on my desk.",
+      "explanation": "Ein Ding (Einzahl) → there is. Mehrere Dinge (Mehrzahl) → there are."
+    },
+    {
+      "id": "ti-003",
+      "type": "input",
+      "category": "statements",
+      "prompt": "There ___ twenty-six children in our class.",
+      "answer": "are",
+      "explanation": "children ist die Mehrzahl von child → there are."
+    },
+    {
+      "id": "ti-004",
+      "type": "choice",
+      "category": "statements",
+      "prompt": "There ___ two mice behind the cupboard.",
+      "options": ["are", "is", "be", "it is"],
+      "answer": "are",
+      "explanation": "mice ist die Mehrzahl von mouse → there are."
+    },
+    {
+      "id": "ti-005",
+      "type": "choice",
+      "category": "statements",
+      "prompt": "There ___ a new girl in our class.",
+      "options": ["is", "are", "be", "it's"],
+      "answer": "is",
+      "explanation": "Ein Ding (Einzahl) → there is. Mehrere Dinge (Mehrzahl) → there are."
+    },
+    {
+      "id": "ti-006",
+      "type": "choice",
+      "category": "statements",
+      "prompt": "There ___ lots of people in the park today.",
+      "options": ["are", "is", "be", "it is"],
+      "answer": "are",
+      "explanation": "people (Leute) ist Mehrzahl → there are."
+    },
+    {
+      "id": "ti-007",
+      "type": "cloze",
+      "category": "statements",
+      "prompt": "Ergänze is oder are.",
+      "text": "In my room there {is} a bed and there {are} two posters on the wall. There {is} a lamp next to the bed.",
+      "distractors": ["are", "is"],
+      "explanation": "Ein Ding (Einzahl) → there is. Mehrere Dinge (Mehrzahl) → there are."
+    },
+    {
+      "id": "ti-008",
+      "type": "cloze",
+      "category": "statements",
+      "prompt": "Tippe is oder are ein.",
+      "mode": "type",
+      "text": "There {are} four books in my school bag. There {is} an apple in it too.",
+      "explanation": "Ein Ding (Einzahl) → there is. Mehrere Dinge (Mehrzahl) → there are."
+    },
+    {
+      "id": "ti-009",
+      "type": "input",
+      "category": "statements",
+      "prompt": "___ a bike behind the house. (Kurzform von there is)",
+      "answer": "There's",
+      "explanation": "Kurzform: there is → there's. Für there are gibt es keine übliche Kurzform."
+    },
+    {
+      "id": "ti-010",
+      "type": "choice",
+      "category": "statements",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "There are two dogs in the garden.",
+        "There is two dogs in the garden.",
+        "There's two dogs in the garden.",
+        "It gives two dogs in the garden."
+      ],
+      "answer": "There are two dogs in the garden.",
+      "explanation": "two dogs = Mehrzahl → there are."
+    },
+    {
+      "id": "ti-011",
+      "type": "input",
+      "category": "questions",
+      "prompt": "___ there a computer in your classroom?",
+      "answer": "Is",
+      "explanation": "Frage: is/are kommt vor there. a computer = Einzahl → Is there …?"
+    },
+    {
+      "id": "ti-012",
+      "type": "input",
+      "category": "questions",
+      "prompt": "___ there any cows on the farm?",
+      "answer": "Are",
+      "explanation": "cows = Mehrzahl → Are there …?"
+    },
+    {
+      "id": "ti-013",
+      "type": "input",
+      "category": "questions",
+      "prompt": "Are ___ two teachers in the room?",
+      "answer": "there",
+      "explanation": "Frage: Are there …? – nicht Are they …?"
+    },
+    {
+      "id": "ti-014",
+      "type": "choice",
+      "category": "questions",
+      "prompt": "Choose the correct question.",
+      "options": [
+        "Is there a park near your school?",
+        "There is a park near your school?",
+        "Is it a park near your school?",
+        "Are there a park near your school?"
+      ],
+      "answer": "Is there a park near your school?",
+      "explanation": "Frage: is vor there stellen. a park = Einzahl → Is there …?"
+    },
+    {
+      "id": "ti-015",
+      "type": "choice",
+      "category": "questions",
+      "prompt": "___ children in the playground?",
+      "options": ["Are there", "Is there", "There are", "Are they"],
+      "answer": "Are there",
+      "explanation": "children = Mehrzahl, Frage → Are there …?"
+    },
+    {
+      "id": "ti-016",
+      "type": "cloze",
+      "category": "questions",
+      "prompt": "Bilde die Fragen.",
+      "text": "{Is} there a sandwich in your bag? {Are} there any pens on the desk? {Is} there a dog next to the door?",
+      "distractors": ["Are", "Is"],
+      "explanation": "Einzahl → Is there …? Mehrzahl → Are there …?"
+    },
+    {
+      "id": "ti-017",
+      "type": "cloze",
+      "category": "questions",
+      "prompt": "Tippe is oder are ein.",
+      "mode": "type",
+      "text": "{Is} there a cinema in your town? {Are} there many shops?",
+      "explanation": "a cinema → Is there …? many shops → Are there …?"
+    },
+    {
+      "id": "ti-018",
+      "type": "cloze",
+      "category": "questions",
+      "prompt": "Ergänze die Fragen.",
+      "text": "{Are} there five people in your family? {Is} there a garden behind your house?",
+      "distractors": ["Is", "Are"],
+      "explanation": "people = Mehrzahl → Are there …? a garden → Is there …?"
+    },
+    {
+      "id": "ti-019",
+      "type": "choice",
+      "category": "questions",
+      "prompt": "Is there a lake ___ Munich?",
+      "options": ["in", "on", "under", "at the"],
+      "answer": "in",
+      "explanation": "Städte: in Munich."
+    },
+    {
+      "id": "ti-020",
+      "type": "input",
+      "category": "answers",
+      "prompt": "Is there a TV in your room? – No, there ___. (Kurzform)",
+      "answer": "isn't",
+      "explanation": "Kurzantwort mit Kurzform: No, there isn't."
+    },
+    {
+      "id": "ti-021",
+      "type": "cloze",
+      "category": "answers",
+      "prompt": "Tippe die Kurzantworten ein (Kurzform bei No).",
+      "mode": "type",
+      "text": "Are there two cats in your house? – Yes, there {are}. Is there a hamster? – No, there {isn't}.",
+      "explanation": "Bei Yes keine Kurzform: Yes, there are. Verneint: No, there isn't."
+    },
+    {
+      "id": "ti-022",
+      "type": "input",
+      "category": "answers",
+      "prompt": "Are there any sweets in the box? – No, there ___. (Kurzform)",
+      "answer": "aren't",
+      "explanation": "Mehrzahl verneint: No, there aren't."
+    },
+    {
+      "id": "ti-023",
+      "type": "input",
+      "category": "answers",
+      "prompt": "Is there a clock on the wall? – Yes, there ___.",
+      "answer": "is",
+      "explanation": "Yes, there is. – bei Yes nie Kurzform (nicht: Yes, there's.)"
+    },
+    {
+      "id": "ti-024",
+      "type": "choice",
+      "category": "answers",
+      "prompt": "Is there a ball under the bed? – Yes, …",
+      "options": ["there is.", "there's.", "it is.", "there are."],
+      "answer": "there is.",
+      "explanation": "Kurzantwort mit Yes: immer Langform → Yes, there is."
+    },
+    {
+      "id": "ti-025",
+      "type": "choice",
+      "category": "answers",
+      "prompt": "Are there any mice in the kitchen? – No, …",
+      "options": ["there aren't.", "there isn't.", "they aren't.", "it isn't."],
+      "answer": "there aren't.",
+      "explanation": "Frage mit Are there → Antwort mit there aren't."
+    },
+    {
+      "id": "ti-026",
+      "type": "cloze",
+      "category": "answers",
+      "prompt": "Ergänze die Kurzantworten.",
+      "text": "Is there a pool at your school? – No, there {isn't}. Are there computers? – Yes, there {are}.",
+      "distractors": ["aren't", "is", "there's"],
+      "explanation": "Einzahl → is/isn't, Mehrzahl → are/aren't. Bei Yes keine Kurzform."
+    },
+    {
+      "id": "ti-027",
+      "type": "cloze",
+      "category": "answers",
+      "prompt": "Tippe die Kurzantworten ein (Kurzform bei No).",
+      "mode": "type",
+      "text": "Are there horses on the farm? – Yes, there {are}. Is there a pig? – No, there {isn't}.",
+      "explanation": "Yes, there are. / No, there isn't."
+    },
+    {
+      "id": "ti-028",
+      "type": "choice",
+      "category": "answers",
+      "prompt": "Are there any people at the bus stop? – Yes, …",
+      "options": ["there are.", "there is.", "there's.", "they are there."],
+      "answer": "there are.",
+      "explanation": "people ist Mehrzahl (Leute) → there are."
+    },
+    {
+      "id": "ti-029",
+      "type": "input",
+      "category": "answers",
+      "prompt": "Is there a cake in the fridge? – No, there ___. (Langform)",
+      "answer": "is not",
+      "explanation": "Langform: No, there is not. Kurzform: No, there isn't."
+    },
+    {
+      "id": "ti-030",
+      "type": "choice",
+      "category": "translate",
+      "prompt": "Es gibt einen Hund im Garten.",
+      "options": [
+        "There is a dog in the garden.",
+        "It gives a dog in the garden.",
+        "There are a dog in the garden.",
+        "It is a dog in the garden."
+      ],
+      "answer": "There is a dog in the garden.",
+      "explanation": "es gibt = there is/there are – niemals it gives!"
+    },
+    {
+      "id": "ti-031",
+      "type": "choice",
+      "category": "translate",
+      "prompt": "Es gibt zwei Bäckereien in unserer Straße.",
+      "options": [
+        "There are two bakeries in our street.",
+        "It gives two bakeries in our street.",
+        "There is two bakeries in our street.",
+        "They are two bakeries in our street."
+      ],
+      "answer": "There are two bakeries in our street.",
+      "explanation": "es gibt + Mehrzahl → there are. „It gives“ ist falsch."
+    },
+    {
+      "id": "ti-032",
+      "type": "input",
+      "category": "translate",
+      "prompt": "Es gibt eine Katze auf dem Sofa. → ___ a cat on the sofa.",
+      "answer": "There is",
+      "accept": ["There's"],
+      "explanation": "es gibt + Einzahl → there is (there's)."
+    },
+    {
+      "id": "ti-033",
+      "type": "input",
+      "category": "translate",
+      "prompt": "Da sind drei Hefte auf dem Tisch. → ___ three exercise books on the table.",
+      "answer": "There are",
+      "explanation": "da sind + Mehrzahl → there are."
+    },
+    {
+      "id": "ti-034",
+      "type": "input",
+      "category": "translate",
+      "prompt": "Gibt es eine Bushaltestelle? → ___ a bus stop?",
+      "answer": "Is there",
+      "explanation": "Frage: Is there …? (nicht: Gives it …?)"
+    },
+    {
+      "id": "ti-035",
+      "type": "input",
+      "category": "translate",
+      "prompt": "Gibt es Füchse im Wald? → ___ foxes in the forest?",
+      "answer": "Are there",
+      "explanation": "Mehrzahl, Frage → Are there …?"
+    },
+    {
+      "id": "ti-036",
+      "type": "cloze",
+      "category": "translate",
+      "prompt": "Übersetze: Es gibt einen Rucksack hinter der Tür.",
+      "mode": "type",
+      "text": "{There is|There's} a rucksack {behind} the door.",
+      "explanation": "es gibt = there is; hinter = behind."
+    },
+    {
+      "id": "ti-037",
+      "type": "cloze",
+      "category": "translate",
+      "prompt": "Übersetze: Da sind zwei Fahrräder neben dem Haus.",
+      "text": "{There} {are} two bikes {next to} the house.",
+      "distractors": ["It", "gives", "is", "behind"],
+      "explanation": "da sind = there are; neben = next to."
+    },
+    {
+      "id": "ti-038",
+      "type": "input",
+      "category": "translate",
+      "prompt": "Da ist ein Brief unter deinem Buch. → There's a letter ___ your book.",
+      "answer": "under",
+      "explanation": "unter = under."
+    }
+  ]
+}

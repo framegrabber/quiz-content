@@ -1,0 +1,360 @@
+{
+  "$schema": "https://framegrabber.github.io/quiz/schema/quiz.v1.json",
+  "schema": 1,
+  "title": "Personal pronouns and be",
+  "description": "I am, you are, he is … – Personalpronomen und die Lang- und Kurzformen von be",
+  "subject": "Englisch",
+  "grade": 5,
+  "source": "Green Line 1 Bayern",
+  "language": "en",
+  "roundSize": 10,
+  "categories": [
+    {
+      "id": "pronouns",
+      "name": "Welches Pronomen?",
+      "description": "Mia and I → we, the bike → it …"
+    },
+    { "id": "forms", "name": "am, is, are" },
+    {
+      "id": "short",
+      "name": "Kurzformen",
+      "description": "I'm, you're, he's, she's, it's, we're, they're"
+    },
+    { "id": "sentences", "name": "Im Satz" }
+  ],
+  "questions": [
+    {
+      "id": "be-001",
+      "type": "input",
+      "category": "pronouns",
+      "prompt": "Mia and I → ___",
+      "answer": "we",
+      "explanation": "Eine andere Person + ich = wir → we."
+    },
+    {
+      "id": "be-002",
+      "type": "input",
+      "category": "pronouns",
+      "prompt": "the bike → ___",
+      "answer": "it",
+      "explanation": "Dinge sind im Englischen immer it – auch wenn es im Deutschen \"das\", \"der\" oder \"die\" heißt."
+    },
+    {
+      "id": "be-003",
+      "type": "input",
+      "category": "pronouns",
+      "prompt": "Ms Carter → ___",
+      "answer": "she"
+    },
+    {
+      "id": "be-004",
+      "type": "input",
+      "category": "pronouns",
+      "prompt": "Noah and Ben → ___",
+      "answer": "they",
+      "explanation": "Mehrere Personen ohne dich und mich → they."
+    },
+    {
+      "id": "be-005",
+      "type": "choice",
+      "category": "pronouns",
+      "prompt": "the school bag → ?",
+      "options": ["it", "he", "she", "they"],
+      "answer": "it",
+      "explanation": "Die Schultasche ist ein Ding → it (nicht she wie \"sie\" im Deutschen)."
+    },
+    {
+      "id": "be-006",
+      "type": "choice",
+      "category": "pronouns",
+      "prompt": "Our dog's name is Bruno. ___ is very friendly.",
+      "options": ["He", "It", "She", "They"],
+      "answer": "He",
+      "explanation": "Ein Haustier mit Namen kann he oder she sein. Bruno ist ein Rüde → he."
+    },
+    {
+      "id": "be-007",
+      "type": "choice",
+      "category": "pronouns",
+      "prompt": "Look, there's a spider on the wall! ___ is black.",
+      "options": ["It", "He", "She", "They"],
+      "answer": "It",
+      "explanation": "Fremde Tiere ohne Namen sind it."
+    },
+    {
+      "id": "be-008",
+      "type": "choice",
+      "category": "pronouns",
+      "prompt": "Which word is always written with a capital letter?",
+      "options": ["I", "you", "we", "they"],
+      "answer": "I",
+      "explanation": "I (ich) schreibt man immer groß – auch mitten im Satz."
+    },
+    {
+      "id": "be-009",
+      "type": "choice",
+      "category": "pronouns",
+      "prompt": "Lena talks to her two brothers: \"___ are funny!\" (ihr)",
+      "options": ["You", "They", "We", "He"],
+      "answer": "You",
+      "explanation": "you heißt du, ihr und Sie – immer dasselbe Wort."
+    },
+    {
+      "id": "be-010",
+      "type": "input",
+      "category": "forms",
+      "prompt": "I ___ eleven years old. (Langform)",
+      "answer": "am",
+      "explanation": "Zu I gehört immer am."
+    },
+    {
+      "id": "be-011",
+      "type": "input",
+      "category": "forms",
+      "prompt": "She ___ my sister. (Langform)",
+      "answer": "is",
+      "explanation": "he, she, it → is."
+    },
+    {
+      "id": "be-012",
+      "type": "input",
+      "category": "forms",
+      "prompt": "We ___ in class 5b. (Langform)",
+      "answer": "are",
+      "explanation": "we, you, they → are."
+    },
+    {
+      "id": "be-013",
+      "type": "input",
+      "category": "forms",
+      "prompt": "The cat ___ on the sofa. (Langform)",
+      "answer": "is",
+      "explanation": "the cat = it → is."
+    },
+    {
+      "id": "be-014",
+      "type": "input",
+      "category": "forms",
+      "prompt": "Ben and Lena ___ at the swimming pool. (Langform)",
+      "answer": "are",
+      "explanation": "Ben and Lena = they → are, nicht is."
+    },
+    {
+      "id": "be-015",
+      "type": "choice",
+      "category": "forms",
+      "prompt": "My parents ___ at work.",
+      "options": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "my parents = they → are."
+    },
+    {
+      "id": "be-016",
+      "type": "choice",
+      "category": "forms",
+      "prompt": "You ___ my best friend, Noah.",
+      "options": ["are", "is", "am", "be"],
+      "answer": "are",
+      "explanation": "Auch wenn you nur eine Person (du) meint: you → are."
+    },
+    {
+      "id": "be-017",
+      "type": "choice",
+      "category": "forms",
+      "prompt": "Football ___ my favourite sport.",
+      "options": ["is", "are", "am", "be"],
+      "answer": "is",
+      "explanation": "football = it → is."
+    },
+    {
+      "id": "be-018",
+      "type": "cloze",
+      "category": "forms",
+      "prompt": "Ergänze am, is oder are.",
+      "text": "I {am} in Munich. My grandma {is} here too. We {are} at the zoo.",
+      "distractors": ["be"],
+      "explanation": "I → am, he/she/it → is, we/you/they → are."
+    },
+    {
+      "id": "be-019",
+      "type": "cloze",
+      "category": "forms",
+      "mode": "type",
+      "prompt": "Ergänze am, is oder are (Langform).",
+      "text": "Ms Carter {is} our teacher. Her lessons {are} fun. The classroom {is} big.",
+      "explanation": "Ms Carter = she → is, her lessons = they → are, the classroom = it → is."
+    },
+    {
+      "id": "be-020",
+      "type": "input",
+      "category": "short",
+      "prompt": "I am → ___ (Kurzform)",
+      "answer": "I'm",
+      "explanation": "Der Apostroph ersetzt das fehlende a: I'm."
+    },
+    {
+      "id": "be-021",
+      "type": "input",
+      "category": "short",
+      "prompt": "they are → ___ (Kurzform)",
+      "answer": "they're",
+      "explanation": "Der Apostroph ersetzt das fehlende a: they're."
+    },
+    {
+      "id": "be-022",
+      "type": "input",
+      "category": "short",
+      "prompt": "she is → ___ (Kurzform)",
+      "answer": "she's"
+    },
+    {
+      "id": "be-023",
+      "type": "input",
+      "category": "short",
+      "prompt": "we are → ___ (Kurzform)",
+      "answer": "we're",
+      "explanation": "we're (wir sind) mit Apostroph – nicht verwechseln mit were."
+    },
+    {
+      "id": "be-024",
+      "type": "input",
+      "category": "short",
+      "prompt": "it is → ___ (Kurzform)",
+      "answer": "it's",
+      "explanation": "it's = it is – der Apostroph darf nicht fehlen."
+    },
+    {
+      "id": "be-025",
+      "type": "choice",
+      "category": "short",
+      "prompt": "Which short form is correct for \"you are\"?",
+      "options": ["you're", "your", "youre", "you'are"],
+      "answer": "you're",
+      "explanation": "you're = you are. your = dein/euer."
+    },
+    {
+      "id": "be-026",
+      "type": "choice",
+      "category": "short",
+      "prompt": "Which short form is correct for \"he is\"?",
+      "options": ["he's", "his", "hes", "he'is"],
+      "answer": "he's",
+      "explanation": "he's = he is. his = sein."
+    },
+    {
+      "id": "be-027",
+      "type": "choice",
+      "category": "short",
+      "prompt": "\"We are\" is the long form. What is the short form?",
+      "options": ["we're", "were", "we'are", "w'are"],
+      "answer": "we're",
+      "explanation": "Bei der Kurzform fällt der erste Buchstabe von are weg: we're."
+    },
+    {
+      "id": "be-028",
+      "type": "cloze",
+      "category": "short",
+      "mode": "type",
+      "prompt": "Schreib die Kurzformen.",
+      "text": "I am → {I'm}, he is → {he's}, you are → {you're}, they are → {they're}",
+      "explanation": "Der Apostroph steht genau dort, wo ein Buchstabe fehlt."
+    },
+    {
+      "id": "be-029",
+      "type": "cloze",
+      "category": "short",
+      "prompt": "Ergänze die Kurzformen.",
+      "text": "{I'm} Noah. {She's} my friend Mia. {We're} in the school band.",
+      "distractors": ["Im", "Shes", "Were"],
+      "explanation": "Kurzformen brauchen immer einen Apostroph."
+    },
+    {
+      "id": "be-030",
+      "type": "cloze",
+      "category": "sentences",
+      "prompt": "Ergänze die Sätze.",
+      "text": "Hi, {I'm} Lena. This is my rabbit, Snowy. {She's} white and very cute.",
+      "distractors": ["Her", "Im", "Shes"],
+      "explanation": "Ein Haustier mit Namen kann he oder she sein: Snowy → She's. Kurzformen brauchen einen Apostroph."
+    },
+    {
+      "id": "be-031",
+      "type": "cloze",
+      "category": "sentences",
+      "prompt": "Ergänze die Sätze.",
+      "text": "My bike is new. {It's} red. My friends {are} at the park.",
+      "distractors": ["She's", "is"],
+      "explanation": "Das Fahrrad ist ein Ding → It's. my friends = they → are."
+    },
+    {
+      "id": "be-032",
+      "type": "cloze",
+      "category": "sentences",
+      "mode": "type",
+      "prompt": "Ergänze das passende Pronomen.",
+      "text": "Ben is my cousin. {He} is twelve. Mia and I are in class 5a. {We} are eleven.",
+      "explanation": "Ben → He, Mia and I → We."
+    },
+    {
+      "id": "be-033",
+      "type": "cloze",
+      "category": "sentences",
+      "mode": "type",
+      "prompt": "Ergänze am, is oder are (Langform).",
+      "text": "Hello, Ms Carter. How {are} you? I {am} fine, thanks. My mum {is} fine too.",
+      "explanation": "you → are (auch bei Sie), I → am, my mum = she → is."
+    },
+    {
+      "id": "be-034",
+      "type": "choice",
+      "category": "sentences",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Noah and I are in the team.",
+        "Noah and I is in the team.",
+        "Noah and i are in the team.",
+        "Noah and I am in the team."
+      ],
+      "answer": "Noah and I are in the team.",
+      "explanation": "Noah and I = we → are. I schreibt man immer groß."
+    },
+    {
+      "id": "be-035",
+      "type": "choice",
+      "category": "sentences",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "My pencil case is blue. It's new.",
+        "My pencil case is blue. She's new.",
+        "My pencil case is blue. Its new.",
+        "My pencil case is blue. It are new."
+      ],
+      "answer": "My pencil case is blue. It's new.",
+      "explanation": "Ein Ding ist it, und it is wird zu it's – mit Apostroph."
+    },
+    {
+      "id": "be-036",
+      "type": "input",
+      "category": "sentences",
+      "prompt": "Max and Ben are my friends. ___ are in my class. (Pronomen)",
+      "answer": "They",
+      "explanation": "Max and Ben = they."
+    },
+    {
+      "id": "be-037",
+      "type": "input",
+      "category": "sentences",
+      "prompt": "This is Oma Rosi. ___ seventy years old. (Pronomen + be, Kurzform)",
+      "answer": "She's",
+      "explanation": "Oma Rosi ist eine Frau → she is → She's."
+    },
+    {
+      "id": "be-038",
+      "type": "input",
+      "category": "sentences",
+      "prompt": "Hello, Mr Weber! ___ my new teacher. (Pronomen + be, Kurzform)",
+      "answer": "You're",
+      "explanation": "Mr Weber wird direkt angesprochen → you are → You're (nicht your)."
+    }
+  ]
+}

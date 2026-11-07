@@ -1,0 +1,361 @@
+{
+  "$schema": "https://framegrabber.github.io/quiz/schema/quiz.v1.json",
+  "schema": 1,
+  "title": "Negative forms of be",
+  "description": "I'm not, isn't, aren't – sagen, was nicht stimmt",
+  "subject": "Englisch",
+  "grade": 5,
+  "source": "Green Line 1 Bayern",
+  "language": "en",
+  "roundSize": 10,
+  "categories": [
+    {
+      "id": "forms",
+      "name": "Langform → Kurzform",
+      "description": "is not → isn't, are not → aren't, I am not → I'm not"
+    },
+    {
+      "id": "isnt-arent",
+      "name": "isn't oder aren't"
+    },
+    {
+      "id": "im-not",
+      "name": "I'm not"
+    },
+    {
+      "id": "correct",
+      "name": "Richtigstellen"
+    }
+  ],
+  "questions": [
+    {
+      "id": "bn-001",
+      "type": "input",
+      "category": "forms",
+      "prompt": "Kurzform: is not → ___",
+      "answer": "isn't",
+      "explanation": "is not → isn't: Das o von not fällt weg, dafür kommt ein Apostroph."
+    },
+    {
+      "id": "bn-002",
+      "type": "input",
+      "category": "forms",
+      "prompt": "Kurzform: are not → ___",
+      "answer": "aren't",
+      "explanation": "are not → aren't: Apostroph statt o."
+    },
+    {
+      "id": "bn-003",
+      "type": "input",
+      "category": "forms",
+      "prompt": "Kurzform: I am not → ___",
+      "answer": "I'm not",
+      "explanation": "I am not → I'm not. Eine Form „I amn't“ gibt es nicht."
+    },
+    {
+      "id": "bn-004",
+      "type": "input",
+      "category": "forms",
+      "prompt": "Kurzform: Noah is not at school today. → Noah ___ at school today.",
+      "answer": "isn't"
+    },
+    {
+      "id": "bn-005",
+      "type": "input",
+      "category": "forms",
+      "prompt": "Kurzform: We are not hungry. → We ___ hungry.",
+      "answer": "aren't"
+    },
+    {
+      "id": "bn-006",
+      "type": "input",
+      "category": "forms",
+      "prompt": "Langform: The pizza isn't hot. → The pizza ___ hot.",
+      "answer": "is not",
+      "explanation": "isn't ist die Kurzform von is not."
+    },
+    {
+      "id": "bn-007",
+      "type": "input",
+      "category": "forms",
+      "prompt": "Langform: My cousins aren't here. → My cousins ___ here.",
+      "answer": "are not"
+    },
+    {
+      "id": "bn-008",
+      "type": "choice",
+      "category": "forms",
+      "prompt": "Which short form is correct?",
+      "options": ["isn't", "is'nt", "isnt'", "isnt"],
+      "answer": "isn't",
+      "explanation": "Der Apostroph steht genau dort, wo das o von not fehlt: isn't."
+    },
+    {
+      "id": "bn-009",
+      "type": "choice",
+      "category": "forms",
+      "prompt": "Which short form of \"I am not\" is correct?",
+      "options": ["I'm not", "I amn't", "I'mn't", "I amnot"],
+      "answer": "I'm not",
+      "explanation": "Bei I am not wird nur am gekürzt: I'm not. „I amn't“ gibt es nicht."
+    },
+    {
+      "id": "bn-010",
+      "type": "cloze",
+      "category": "forms",
+      "prompt": "Schreib die Kurzformen.",
+      "text": "You {aren't} late. Ms Carter {isn't} in the classroom yet.",
+      "mode": "type",
+      "explanation": "are not → aren't, is not → isn't."
+    },
+    {
+      "id": "bn-011",
+      "type": "input",
+      "category": "isnt-arent",
+      "prompt": "My sister ___ ten. She's twelve.",
+      "answer": "isn't",
+      "accept": ["is not"],
+      "explanation": "my sister = she → isn't."
+    },
+    {
+      "id": "bn-012",
+      "type": "input",
+      "category": "isnt-arent",
+      "prompt": "Noah and Ben ___ in the garden. They're in the kitchen.",
+      "answer": "aren't",
+      "accept": ["are not"],
+      "explanation": "Noah and Ben = they → aren't."
+    },
+    {
+      "id": "bn-013",
+      "type": "input",
+      "category": "isnt-arent",
+      "prompt": "The shop ___ open on Sundays.",
+      "answer": "isn't",
+      "accept": ["is not"]
+    },
+    {
+      "id": "bn-014",
+      "type": "input",
+      "category": "isnt-arent",
+      "prompt": "My shoes ___ dry. They're wet.",
+      "answer": "aren't",
+      "accept": ["are not"],
+      "explanation": "shoes = Mehrzahl (they) → aren't."
+    },
+    {
+      "id": "bn-015",
+      "type": "choice",
+      "category": "isnt-arent",
+      "prompt": "Our dog ___ in its basket.",
+      "options": ["isn't", "aren't", "not", "don't"],
+      "answer": "isn't",
+      "explanation": "our dog = it → isn't."
+    },
+    {
+      "id": "bn-016",
+      "type": "choice",
+      "category": "isnt-arent",
+      "prompt": "You ___ in my team, Mia.",
+      "options": ["aren't", "isn't", "not", "amn't"],
+      "answer": "aren't",
+      "explanation": "Nach you steht immer are → aren't, auch bei einer Person."
+    },
+    {
+      "id": "bn-017",
+      "type": "choice",
+      "category": "isnt-arent",
+      "prompt": "The books ___ on the shelf.",
+      "options": ["aren't", "isn't", "not", "is'nt"],
+      "answer": "aren't",
+      "explanation": "books = Mehrzahl → aren't."
+    },
+    {
+      "id": "bn-018",
+      "type": "choice",
+      "category": "isnt-arent",
+      "prompt": "My new bike ___ red. It's blue.",
+      "options": ["isn't", "aren't", "not", "amn't"],
+      "answer": "isn't"
+    },
+    {
+      "id": "bn-019",
+      "type": "cloze",
+      "category": "isnt-arent",
+      "prompt": "Ergänze isn't oder aren't.",
+      "text": "Lena {isn't} at home. Her parents {aren't} at home either. The cat {isn't} hungry.",
+      "distractors": ["is", "are", "not"],
+      "explanation": "he/she/it → isn't, we/you/they → aren't."
+    },
+    {
+      "id": "bn-020",
+      "type": "cloze",
+      "category": "isnt-arent",
+      "prompt": "Ergänze isn't oder aren't.",
+      "text": "We {aren't|are not} in Munich. Our hotel {isn't|is not} near the lake.",
+      "mode": "type"
+    },
+    {
+      "id": "bn-021",
+      "type": "input",
+      "category": "im-not",
+      "prompt": "___ eleven. I'm ten. (Kurzform)",
+      "answer": "I'm not",
+      "explanation": "I am not → I'm not."
+    },
+    {
+      "id": "bn-022",
+      "type": "input",
+      "category": "im-not",
+      "prompt": "___ tired. (Kurzform von I am not)",
+      "answer": "I'm not"
+    },
+    {
+      "id": "bn-023",
+      "type": "input",
+      "category": "im-not",
+      "prompt": "___ from Berlin. I'm from Munich.",
+      "answer": "I'm not",
+      "accept": ["I am not"],
+      "explanation": "Nach I: am not / 'm not – niemals amn't."
+    },
+    {
+      "id": "bn-024",
+      "type": "choice",
+      "category": "im-not",
+      "prompt": "Wähle die richtige Antwort.",
+      "options": [
+        "I'm not a teacher.",
+        "I amn't a teacher.",
+        "I isn't a teacher.",
+        "I aren't a teacher."
+      ],
+      "answer": "I'm not a teacher.",
+      "explanation": "I am not → I'm not. „I amn't“ und „I isn't“ sind falsch."
+    },
+    {
+      "id": "bn-025",
+      "type": "choice",
+      "category": "im-not",
+      "prompt": "Are you ready? – No, ___.",
+      "options": ["I'm not", "I amn't", "I isn't", "I aren't"],
+      "answer": "I'm not",
+      "explanation": "Kurzantwort: No, I'm not. Eine Form „I amn't“ gibt es nicht."
+    },
+    {
+      "id": "bn-026",
+      "type": "choice",
+      "category": "im-not",
+      "prompt": "Are you twelve? – Yes, ___.",
+      "options": ["I am", "I'm", "I'm not", "I amn't"],
+      "answer": "I am",
+      "explanation": "In kurzen Ja-Antworten keine Kurzform: Yes, I am. – nicht „Yes, I'm.“"
+    },
+    {
+      "id": "bn-027",
+      "type": "input",
+      "category": "im-not",
+      "prompt": "Are you hungry? – No, ___. (Kurzform)",
+      "answer": "I'm not"
+    },
+    {
+      "id": "bn-028",
+      "type": "cloze",
+      "category": "im-not",
+      "prompt": "Ergänze die Verneinung.",
+      "text": "{I'm not} sad. {I'm not} in my room. I'm in the garden.",
+      "distractors": ["I amn't", "I isn't", "I aren't"],
+      "explanation": "Nach I immer 'm not (am not), nie amn't."
+    },
+    {
+      "id": "bn-029",
+      "type": "cloze",
+      "category": "im-not",
+      "prompt": "Ergänze die Verneinung.",
+      "text": "Hi, I'm Ben. {I'm not|I am not} good at football. My sister {isn't|is not} good at it either.",
+      "mode": "type"
+    },
+    {
+      "id": "bn-030",
+      "type": "cloze",
+      "category": "correct",
+      "prompt": "Stell richtig.",
+      "text": "That {isn't} my pencil – {it's} Mia's.",
+      "distractors": ["aren't", "its", "is"],
+      "explanation": "it's = it is. its ohne Apostroph = sein/ihr."
+    },
+    {
+      "id": "bn-031",
+      "type": "cloze",
+      "category": "correct",
+      "prompt": "Stell richtig.",
+      "text": "These {aren't} my socks. {They're} Noah's.",
+      "distractors": ["isn't", "Their", "There"],
+      "explanation": "these = Mehrzahl → aren't; they're = they are."
+    },
+    {
+      "id": "bn-032",
+      "type": "cloze",
+      "category": "correct",
+      "prompt": "Stell richtig.",
+      "text": "Ms Carter {isn't} our maths teacher. {She's} our English teacher.",
+      "distractors": ["aren't", "Her", "He's"]
+    },
+    {
+      "id": "bn-033",
+      "type": "cloze",
+      "category": "correct",
+      "prompt": "Stell richtig (Kurzformen).",
+      "text": "{I'm not} twelve. {I'm} eleven.",
+      "mode": "type",
+      "explanation": "Ben = he → isn't / he's."
+    },
+    {
+      "id": "bn-034",
+      "type": "cloze",
+      "category": "correct",
+      "prompt": "Stell richtig (Kurzformen).",
+      "text": "No, we {aren't} from Austria. {We're} from Bavaria.",
+      "mode": "type"
+    },
+    {
+      "id": "bn-035",
+      "type": "cloze",
+      "category": "correct",
+      "prompt": "Stell richtig (Kurzformen).",
+      "text": "Our cat {isn't} black. {It's} brown and white.",
+      "mode": "type",
+      "explanation": "Verneinen mit isn't, dann richtigstellen: It's = It is."
+    },
+    {
+      "id": "bn-036",
+      "type": "input",
+      "category": "correct",
+      "prompt": "Is Lena your sister? – No, she ___. She's my cousin.",
+      "answer": "isn't",
+      "accept": ["is not"]
+    },
+    {
+      "id": "bn-037",
+      "type": "choice",
+      "category": "correct",
+      "prompt": "Richtigstellen: \"The keys are in your bag.\"",
+      "options": [
+        "No, they aren't. They're on the table.",
+        "No, they isn't. They're on the table.",
+        "No, they aren't. Their on the table.",
+        "No, they're not. There on the table."
+      ],
+      "answer": "No, they aren't. They're on the table.",
+      "explanation": "they → aren't; they're = they are (nicht their/there)."
+    },
+    {
+      "id": "bn-038",
+      "type": "input",
+      "category": "correct",
+      "prompt": "Your hamster is grey. – No, it ___ grey. It's white.",
+      "answer": "isn't",
+      "accept": ["is not"]
+    }
+  ]
+}

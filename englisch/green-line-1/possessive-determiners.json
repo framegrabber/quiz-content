@@ -9,10 +9,15 @@
   "language": "en",
   "roundSize": 10,
   "categories": [
-    { "id": "forms", "name": "Pronomen → Begleiter", "description": "I → my, you → your, he → his …" },
+    {
+      "id": "forms",
+      "name": "Pronomen → Begleiter",
+      "description": "I → my, you → your, he → his …"
+    },
     { "id": "his-her", "name": "his oder her" },
     { "id": "its", "name": "its oder it's" },
     { "id": "plural", "name": "our, your, their" },
+    { "id": "your-youre", "name": "your oder you're" },
     { "id": "sentences", "name": "Im Satz" }
   ],
   "questions": [
@@ -377,6 +382,57 @@
       "prompt": "My brother and I have a cat. ___ cat is black.",
       "options": ["Our", "Their", "My", "Your"],
       "answer": "Our"
+    },
+    {
+      "id": "pd-046",
+      "type": "choice",
+      "category": "your-youre",
+      "prompt": "___ my best friend, Noah!",
+      "options": ["You're", "Your"],
+      "answer": "You're",
+      "explanation": "You're = You are (du bist). Your = dein/euer/Ihr."
+    },
+    {
+      "id": "pd-047",
+      "type": "choice",
+      "category": "your-youre",
+      "prompt": "Is this ___ pencil case, Mia?",
+      "options": ["your", "you're"],
+      "answer": "your",
+      "explanation": "Dein Mäppchen → Besitz → your."
+    },
+    {
+      "id": "pd-048",
+      "type": "input",
+      "category": "your-youre",
+      "prompt": "Du bist zu spät! → ___ late! (Kurzform)",
+      "answer": "You're",
+      "explanation": "Du bist = you are → Kurzform you're (mit Apostroph)."
+    },
+    {
+      "id": "pd-049",
+      "type": "input",
+      "category": "your-youre",
+      "prompt": "Euer Garten ist toll. → ___ garden is great.",
+      "answer": "Your",
+      "explanation": "euer = your (Besitz, kein Apostroph)."
+    },
+    {
+      "id": "pd-050",
+      "type": "cloze",
+      "category": "your-youre",
+      "prompt": "your oder you're?",
+      "text": "{You're} in my class, and {your} sister is in my brother's class.",
+      "mode": "type",
+      "explanation": "you're = you are; your = dein."
+    },
+    {
+      "id": "pd-051",
+      "type": "cloze",
+      "category": "your-youre",
+      "prompt": "Ergänze your oder you're.",
+      "text": "Mum, {you're} the best! Thanks for {your} help and {your} great cake.",
+      "explanation": "Vor einem Nomen steht your. you're heißt you are."
     }
   ]
 }
