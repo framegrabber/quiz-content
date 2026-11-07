@@ -356,6 +356,22 @@
       "prompt": "Your hamster is grey. – No, it ___ grey. It's white.",
       "answer": "isn't",
       "accept": ["is not"]
+    },
+    {
+      "id": "bn-039",
+      "type": "table",
+      "category": "forms",
+      "prompt": "Ergänze die Kurzformen der Verneinung.",
+      "columns": ["Langform", "Kurzform"],
+      "rows": [
+        ["I am not", "{I'm not}"],
+        ["you are not", "{you aren't|you're not}"],
+        ["he is not", "{he isn't|he's not}"],
+        ["it is not", "{it isn't|it's not}"],
+        ["we are not", "{we aren't|we're not}"],
+        ["they are not", "{they aren't|they're not}"]
+      ],
+      "explanation": "I am not → I'm not (nie „I amn't“). is not → isn't, are not → aren't."
     }
   ]
 }

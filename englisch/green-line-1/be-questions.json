@@ -363,6 +363,24 @@
       "answer": "I'm not",
       "accept": ["i am not"],
       "explanation": "Mit I gibt es nur I'm not – nicht I amn't."
+    },
+    {
+      "id": "bq-039",
+      "type": "table",
+      "category": "yes",
+      "prompt": "Ergänze die Kurzantworten.",
+      "columns": ["Frage", "Yes, …", "No, …"],
+      "rows": [
+        ["Are you ten?", "{I am}", "{I'm not|I am not}"],
+        ["Is Ben ill?", "{he is}", "{he isn't|he is not|he's not}"],
+        ["Is it cold?", "{it is}", "{it isn't|it is not|it's not}"],
+        [
+          "Are they here?",
+          "{they are}",
+          "{they aren't|they are not|they're not}"
+        ]
+      ],
+      "explanation": "Bei yes immer die Langform (Yes, I am.), bei no die Kurzform (No, I'm not.)."
     }
   ]
 }

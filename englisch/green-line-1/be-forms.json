@@ -14,13 +14,19 @@
       "name": "Welches Pronomen?",
       "description": "Mia and I → we, the bike → it …"
     },
-    { "id": "forms", "name": "am, is, are" },
+    {
+      "id": "forms",
+      "name": "am, is, are"
+    },
     {
       "id": "short",
       "name": "Kurzformen",
       "description": "I'm, you're, he's, she's, it's, we're, they're"
     },
-    { "id": "sentences", "name": "Im Satz" }
+    {
+      "id": "sentences",
+      "name": "Im Satz"
+    }
   ],
   "questions": [
     {
@@ -355,6 +361,34 @@
       "prompt": "Hello, Mr Weber! ___ my new teacher. (Pronomen + be, Kurzform)",
       "answer": "You're",
       "explanation": "Mr Weber wird direkt angesprochen → you are → You're (nicht your)."
+    },
+    {
+      "id": "be-039",
+      "type": "table",
+      "category": "short",
+      "prompt": "Singular: Ergänze Lang- und Kurzform.",
+      "columns": ["Pronomen", "Langform", "Kurzform"],
+      "rows": [
+        ["I", "I {am}", "{I'm}"],
+        ["you", "you {are}", "{you're}"],
+        ["he", "he {is}", "{he's}"],
+        ["she", "she {is}", "{she's}"],
+        ["it", "it {is}", "{it's}"]
+      ],
+      "explanation": "I → am, you → are, he/she/it → is. Kurzform: Apostroph statt a bzw. i."
+    },
+    {
+      "id": "be-040",
+      "type": "table",
+      "category": "short",
+      "prompt": "Plural: Ergänze Lang- und Kurzform.",
+      "columns": ["Pronomen", "Langform", "Kurzform"],
+      "rows": [
+        ["we", "we {are}", "{we're}"],
+        ["you", "you {are}", "{you're}"],
+        ["they", "they {are}", "{they're}"]
+      ],
+      "explanation": "Im Plural heißt es immer are – Kurzform 're."
     }
   ]
 }

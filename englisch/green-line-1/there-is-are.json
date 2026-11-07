@@ -374,6 +374,21 @@
       "prompt": "Da ist ein Brief unter deinem Buch. → There's a letter ___ your book.",
       "answer": "under",
       "explanation": "unter = under."
+    },
+    {
+      "id": "ti-039",
+      "type": "table",
+      "category": "statements",
+      "prompt": "Ergänze There is oder There are.",
+      "columns": ["Was?", "Satz"],
+      "rows": [
+        ["a dog", "{There is|There's} a dog."],
+        ["two dogs", "{There are} two dogs."],
+        ["a mouse", "{There is|There's} a mouse."],
+        ["three mice", "{There are} three mice."],
+        ["children", "{There are} children."]
+      ],
+      "explanation": "Ein Ding → there is (there's). Mehrere → there are – auch bei mice und children."
     }
   ]
 }

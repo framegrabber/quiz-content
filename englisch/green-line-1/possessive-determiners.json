@@ -14,11 +14,26 @@
       "name": "Pronomen → Begleiter",
       "description": "I → my, you → your, he → his …"
     },
-    { "id": "his-her", "name": "his oder her" },
-    { "id": "its", "name": "its oder it's" },
-    { "id": "plural", "name": "our, your, their" },
-    { "id": "your-youre", "name": "your oder you're" },
-    { "id": "sentences", "name": "Im Satz" }
+    {
+      "id": "his-her",
+      "name": "his oder her"
+    },
+    {
+      "id": "its",
+      "name": "its oder it's"
+    },
+    {
+      "id": "plural",
+      "name": "our, your, their"
+    },
+    {
+      "id": "your-youre",
+      "name": "your oder you're"
+    },
+    {
+      "id": "sentences",
+      "name": "Im Satz"
+    }
   ],
   "questions": [
     {
@@ -433,6 +448,34 @@
       "prompt": "Ergänze your oder you're.",
       "text": "Mum, {you're} the best! Thanks for {your} help and {your} great cake.",
       "explanation": "Vor einem Nomen steht your. you're heißt you are."
+    },
+    {
+      "id": "pd-052",
+      "type": "table",
+      "category": "forms",
+      "prompt": "Singular: Welcher Begleiter gehört zum Pronomen?",
+      "columns": ["Pronomen", "Begleiter"],
+      "rows": [
+        ["I", "{my}"],
+        ["you", "{your}"],
+        ["he", "{his}"],
+        ["she", "{her}"],
+        ["it", "{its}"]
+      ],
+      "explanation": "I → my, you → your, he → his, she → her, it → its (ohne Apostroph)."
+    },
+    {
+      "id": "pd-053",
+      "type": "table",
+      "category": "plural",
+      "prompt": "Plural: Welcher Begleiter gehört zum Pronomen?",
+      "columns": ["Pronomen", "Begleiter"],
+      "rows": [
+        ["we", "{our}"],
+        ["you", "{your}"],
+        ["they", "{their}"]
+      ],
+      "explanation": "we → our, you → your (euer), they → their."
     }
   ]
 }
